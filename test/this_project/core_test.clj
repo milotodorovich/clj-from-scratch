@@ -3,7 +3,7 @@
 
 (t/deftest math-works-test
   (t/testing "Addition still solid"
-    (t/is (= 2 (+ 1 1)))))
+    (t/is (= 3 (+ 1 1)))))
 
 (comment
   ;; --reporter kaocha.report/documentation
