@@ -3,7 +3,7 @@
 
 (defn run [opts]
   (pp/pprint opts)
-  (println "Hellow. Welcome to this-project!"))
+  (println "Hello. Welcome to this-project!"))
 
 (comment
   (run nil)
