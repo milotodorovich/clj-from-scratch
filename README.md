@@ -5,7 +5,7 @@ This projects tracks the steps to create a clojure project, using `clj` and `dep
 ## TODO
 
 * [x] README and LICENSE
-* [ ] Initial project structure
+* [x] Initial project structure
 * [ ] Running the projects
 * [ ] Developer tooling
 * [ ] Testing
