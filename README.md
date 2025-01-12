@@ -10,4 +10,4 @@ This projects tracks the steps to create a clojure project, using `clj` and `dep
 * [x] Developer tooling
 * [x] Testing
 * [x] Docker
-* [ ] CI
+* [x] CI
