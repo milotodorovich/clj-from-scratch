@@ -11,7 +11,5 @@ jobs:
     
     steps:
     - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag milotodorovich/from-scratch:$GITHUB_SHA
     - name: Run tests
-      run: docker run --rm milotodorovich/from-scratch:$GITHUB_SHA scripts/test
+      run: docker compose run app scripts/test
