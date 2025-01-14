@@ -9,7 +9,8 @@
  :kaocha/plugins [:kaocha.plugin/randomize
                   :kaocha.plugin/filter
                   :kaocha.plugin/capture-output
-                  :kaocha.plugin/profiling]
+                  :kaocha.plugin/profiling
+                  :kaocha.plugin/cloverage]
  :kaocha.plugin.randomize/seed 597061616
  :kaocha.plugin.randomize/randomize? true
  :kaocha.plugin.profiling/count 3

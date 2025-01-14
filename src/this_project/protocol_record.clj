@@ -30,6 +30,7 @@
     (println (str "Found the product: " product))
     (println (str "The price is: " price))))
 
-(time (controller-method (->MockFinder)))
-(time (controller-method (->DBFinder {})))
+(comment
+  (time (controller-method (->MockFinder)))
+  (time (controller-method (->DBFinder {}))))
 
