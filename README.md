@@ -14,5 +14,4 @@ This projects tracks the steps to create a clojure project, using `clj` and `dep
 * [x] Docker
 * [x] CI
 * [x] Docker CI (status badge)
-* [x] Docker CI (status badge)
 * [x] Example using defprotocol and defrecord
